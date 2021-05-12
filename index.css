@@ -1,4 +1,5 @@
-.bodyClass {overflow-y:visible !important;
+.bodyClass {
+    overflow-y: visible !important;
     position: absolute !important;
     background-position: center top !important;
     background-size: 100% auto !important;
@@ -36,54 +37,8 @@
     box-sizing: initial !important;
 }
 
-#add_post {
-    background-color: antiquewhite;
-    position: relative;
-    width: 100%;
-    height: 20%;
-    padding: 1vh 0%;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-}
 
-.post_page_button {
-    height: 5vh;
-    width: 18vh;
-    font-size: 3vh;
-    font-weight: bold;
-    background-color: #ffffff;
-    border-width: 0.1vh;
-    border-radius: 2vh;
-    box-shadow: #3f3f3f 0.2vh 0.2vh;
-}
-
-#add_post input[type=text] {
-    background-color: #e5e2e2;
-    border-width: 0;
-    border-radius: 3vh;
-    padding: 0% 1vh;
-    position: relative;
-    top: 1vw;
-    font-size: 3vh;
-    color: #494949;
-    width: calc(100% - 2vh);
-    outline: 0;
-    flex-grow: 1;
-}
-
-#browse_post {
-    background-color: rgb(112, 90, 60);
-    position: relative;
-    width: 100%;
-    height: 80%;
-    padding: 1vh 0%;
-}
-
-.post {
-    width: 100%;
-    height: 80%;
-}
+/* ??? wtf ??? */
 
 .papapa {
     border-radius: 40%;
@@ -96,9 +51,7 @@
 .container_progress_bar {
     position: absolute;
     right: 25%;
-    margin: 3% 0px;
     width: calc(100%*0.35);
-    height: 100px;
     text-align: center;
 }
 
@@ -181,9 +134,29 @@
     background: rgba(0, 0, 0, 0.25);
 }
 
-.LVTXT {
+#level_block {
+    display: flex;
     font-size: 3vh;
     font-weight: bold;
-    background-color: #ffffff;
-    margin: 5% 14%;
+    padding: 5% 14%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#button_block {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.feed_button {
+    height: 8vh;
+    width: 20vh;
+    font-size: 3vh;
+    font-weight: bold;
+    letter-spacing: 0.7vh;
+    border-width: 0.1vh;
+    border-radius: 3vh;
+    box-shadow: #3f4e20 0.2vh 0.4vh;
 }
